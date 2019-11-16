@@ -1,4 +1,4 @@
-public class quadSolver {
+public class QuadSolver {
     public double a, b, c;
     public double discriminant;
     public int ansType;
@@ -6,7 +6,7 @@ public class quadSolver {
     public double pAns2;
     public double nAnsRe;
     public double nAnsIm;
-    public quadSolver(double _a, double _b, double _c){
+    public QuadSolver(double _a, double _b, double _c){
         a = _a;
         b = _b;
         c = _c;
