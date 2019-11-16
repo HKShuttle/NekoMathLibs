@@ -1,11 +1,11 @@
-#NekoMathLibs
+# NekoMathLibs
 
-##Outline of this Repository
+## Outline of this Repository
 
 This is a Java library for Mathematics.
 I made this library to study programming.
 
-##Usage
+## Usage
 * Import this package. 
 
 ```java
@@ -18,7 +18,7 @@ import NekoMathLibs.*;
 QuadSolver [NAME_OF_INSTANCE] = new QuadSolver([DOUBLE_A], [DOUBLE_B], [DOUBLE_C]);
 ```
 
-###Variables of Instances
+### Variables of Instances
 
 ```java
 public double a, b, c; // Coefficients of the equation
@@ -30,7 +30,7 @@ public double nAnsRe; // Real part of the imaginary number
 public double nAnsIm; // The imaginery part
 ```
 
-###The Type of the Answer
+### The Type of the Answer
 
 * D > 0 (D := the Discriminant)
 
@@ -56,5 +56,5 @@ ansType == 2;
 ansType == -1;
 ```
 
-##License
+## License
 Undefined.
